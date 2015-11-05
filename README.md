@@ -53,22 +53,27 @@ The following instructions can be found on the web here http://docs.docker.com/l
 ```
 $ sudo apt-get update
 ```
+
 - Make sure you have `wget`
 ```
 $ which wget
 ```
+
 - Install the latest Docker package
 ```
 $ wget -qO- https://get.docker.com/ | sh
 ```
+
 - Once the script is complete, add yourself to the docker group
 ```
 $ sudo usermod -aG docker <username>
 ```
+
 - Now reboot your vm
 ```
 $ sudo reboot
 ```
+
 - When you vm comes back up open the terminal again
 - Test and verify your docker installation with the following
 ```
